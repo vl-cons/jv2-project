@@ -12,6 +12,9 @@ public class Post {
     private Long id;
     private String title;
     private String author;
+    private String url;
+    private String Topics;
+    private int year;
 
     public Long getId() {
         return id;
@@ -35,5 +38,29 @@ public class Post {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getTopics() {
+        return Topics;
+    }
+
+    public void setTopics(String topics) {
+        Topics = topics;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }
