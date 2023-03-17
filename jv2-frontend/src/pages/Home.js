@@ -32,6 +32,7 @@ export default function Home() {
                 <thead>
                     <tr>
                     <th scope="col">#</th>
+                    <th scope="col">#</th>
                     <th scope="col">Title</th>
                     <th scope="col">Author</th>
                     <th scope="col">URL</th>
