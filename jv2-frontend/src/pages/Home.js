@@ -4,6 +4,7 @@ import { Link, useParams } from 'react-router-dom'
 
 export default function Home() {
 
+
     const [posts, setPosts] = useState([])
 
     const {id}=useParams()
@@ -24,6 +25,7 @@ export default function Home() {
     }
 
   return (
+    //comment
     <div class='container'>
         <div class='py-4'>
             <table class="table border shadow ">
